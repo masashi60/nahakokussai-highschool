@@ -1,0 +1,266 @@
+body {
+  font-size: 14px;
+  -webkit-text-size-adjust: 100%;
+}
+
+.page {
+  width: auto;
+}
+
+.content {
+  width: 960px;
+  margin: 0 auto 60px auto;
+  overflow: hidden;
+}
+
+header {
+  height: 150px;
+  background-color: #ffffff;
+  border-bottom: 3px solid #339933;
+  margin-bottom: 60px;
+}
+
+header .border {
+  height: 3px;
+  background-color: #339933;
+  margin-top: 7px;
+}
+
+header .inner {
+  width: 960px;
+  height: 150px;
+  margin: 0 auto;
+  position: relative;
+}
+
+header h1 {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+header nav {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  padding: 10px 10px 0 0;
+}
+
+header nav ul {
+  float: left;
+}
+
+header nav ul li {
+  padding: 0 0 10px 10px;
+  border-left: 1px solid #999;
+}
+
+main {
+  width: 730px;
+  float: left;
+  margin-right: 30px;
+}
+
+aside {
+  width: 200px;
+  height: 460px;
+  float: right;
+}
+
+aside .banner {
+  margin-bottom: 30px;
+}
+
+aside .info h2 {
+  background-color: #339933;
+  color: #ffffff;
+  font-size: 20px;
+  height: 50px;
+  padding-left: 20px;
+  line-height: 50px;
+  border-radius: 3px 3px 0 0;
+}
+
+aside .info ul {
+  height: 240px;
+  border: 3px solid #339933;
+  border-radius: 0 0 3px 3px;
+  padding-top: 20px;
+}
+
+aside .info ul li {
+  list-style-type: none;
+  margin-left: 17px;
+  margin-bottom: 20px;
+}
+
+aside .info ul li a {
+  color: #0099cc;
+}
+
+footer {
+  background-color: #339933;
+  height: 110px;
+  color: #ffffff;
+  clear: both;
+}
+
+footer .inner {
+  width: 960px;
+  height: 110px;
+  margin: 0 auto;
+  position: relative;
+}
+
+footer .inner address {
+  width: 310px;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+
+footer .inner address p {
+  text-align: center;
+  line-height: 10px;
+}
+
+footer .inner .check {
+  position: absolute;
+  top: 40px;
+  left: 370px;
+}
+
+footer .inner .sns {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+}
+
+footer .inner .sns li {
+  float: left;
+  list-style-type: none;
+  margin: 10px 0 10px 30px;
+}
+
+footer .inner .sns li:first-child {
+  margin: 20px 0 20px 10px;
+}
+
+footer .inner .sns li p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+#course main {
+  width: 690px;
+  margin-left: 30px;
+  margin-right: 40px;
+}
+
+#course main h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 1px;
+}
+
+#course main section {
+  overflow: hidden;
+}
+
+#course main section h3 {
+  background-color: #339933;
+  color: #ffffff;
+  font-size: 20px;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+#course main section p {
+  margin-bottom: 35px;
+  line-height: 1.8;
+}
+
+.hutsu {
+  margin-top: 40px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #999;
+}
+
+.hutsu figure {
+  float: right;
+}
+
+.kokusai {
+  margin-top: 60px;
+  margin-bottom: 45px;
+}
+
+.kokusai .gakka {
+  float: right;
+}
+
+#access main {
+  width: 680px;
+  margin-left: 30px;
+}
+
+#access main h2 {
+  font-size: 20px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  padding-top: 1px;
+}
+
+#access main section {
+  overflow: hidden;
+}
+
+#access main section h3 {
+  font-size: 20px;
+  background-color: #339933;
+  color: #ffffff;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 3px;
+  margin-bottom: 60px;
+}
+
+#access main section p {
+  line-height: 24px;
+  width: 250px;
+}
+
+.access {
+  padding-bottom: 70px;
+  border-bottom: 1px solid #999;
+  margin-bottom: 70px;
+  position: relative;
+}
+
+.access .map {
+  float: right;
+  position: absolute;
+  right: 30px;
+}
+
+.access .map h3 {
+  width: 90px;
+}
+
+.erea {
+  margin-bottom: 10px;
+}
+
+.erea .shuhen {
+  width: 110px;
+}
+
+.erea figure {
+  float: right;
+}
+/*# sourceMappingURL=style.css.map */

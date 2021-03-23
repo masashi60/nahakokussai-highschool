@@ -1,0 +1,312 @@
+// 設定
+// ------------------------------------------------
+
+$bg-color: #ffffff;
+$main-color: #339933;
+$accent-color: #0099cc;
+
+// 共通
+// ------------------------------------------------
+body {
+  font-size: 14px;
+  -webkit-text-size-adjust: 100%;
+}
+
+.page {
+  width: auto;
+}
+
+.content {
+  width: 960px;
+  margin: 0 auto 60px auto;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+// ヘッダー
+// ------------------------------------------------
+header {
+  height: 150px;
+  background-color: $bg-color;
+  border-bottom: 3px solid $main-color;
+  margin-bottom: 60px;
+
+  .border {
+    height: 3px;
+    background-color: $main-color;
+    margin-top: 7px;
+  }
+
+  .inner {
+    width: 960px;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  h1 {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+  }
+
+  nav {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    padding: 10px 10px 0 0;
+
+    ul {
+      float: left;
+
+      li {
+        padding: 0 0 10px 10px;
+        border-left: 1px solid #999;
+      }
+    }
+  }
+}
+
+// メイン
+// ------------------------------------------------
+
+main {
+  width: 730px;
+  float: left;
+  margin-right: 30px;
+}
+
+// サイド
+// ------------------------------------------------
+
+aside {
+  width: 200px;
+  height: 460px;
+  float: right;
+
+  .banner {
+    margin-bottom: 30px;
+  }
+
+  .info {
+    h2 {
+      background-color: $main-color;
+      color: $bg-color;
+      font-size: 20px;
+      height: 50px;
+      padding-left: 20px;
+      line-height: 50px;
+      border-radius: 3px 3px 0 0;
+    }
+
+    ul {
+      height: 240px;
+      border: 3px solid $main-color;
+      border-radius: 0 0 3px 3px;
+      padding-top: 20px;
+
+      li {
+        list-style-type: none;
+        margin-left: 17px;
+        margin-bottom: 20px;
+
+        a {
+          color: $accent-color;
+        }
+      }
+    }
+  }
+}
+
+// フッター
+// ------------------------------------------------
+footer {
+  background-color: $main-color;
+  height: 110px;
+  color: $bg-color;
+  clear: both;
+
+  .inner {
+    width: 960px;
+    height: 110px;
+    margin: 0 auto;
+    position: relative;
+
+    address {
+
+      width: 310px;
+      position: absolute;
+      top: 30px;
+      left: 10px;
+
+      p {
+        text-align: center;
+        line-height: 10px;
+      }
+    }
+
+    .check {
+      position: absolute;
+      top: 40px;
+      left: 370px;
+    }
+
+    .sns {
+      position: absolute;
+      top: 30px;
+      right: 10px;
+
+      li {
+        float: left;
+        list-style-type: none;
+        margin: 10px 0 10px 30px;
+
+        &:first-child {
+          margin: 20px 0 20px 10px;
+        }
+
+        p {
+          font-size: 18px;
+          color: $bg-color;
+        }
+      }
+    }
+  }
+}
+
+
+// トップページ
+// ------------------------------------------------
+
+
+
+
+// 学科紹介
+// ------------------------------------------------
+#course {
+  main {
+    width: 690px;
+    margin-left: 30px;
+    margin-right: 40px;
+
+    h2 {
+      font-size: 20px;
+      font-weight: bold;
+      padding-top: 1px;
+    }
+
+    section {
+      overflow: hidden;
+
+      h3 {
+        background-color: $main-color;
+        color: $bg-color;
+        font-size: 20px;
+        width: 80px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 3px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin-bottom: 35px;
+        line-height: 1.8;
+      }
+    }
+  }
+}
+
+
+.hutsu {
+  margin-top: 40px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #999;
+
+  figure {
+    float: right;
+  }
+}
+
+.kokusai {
+  margin-top: 60px;
+  margin-bottom: 45px;
+
+  .gakka {
+    float: right;
+  }
+}
+
+
+// アクセス
+// ------------------------------------------------
+#access {
+  main {
+    width: 680px;
+    margin-left: 30px;
+
+    h2 {
+      font-size: 20px;
+      margin-bottom: 40px;
+      font-weight: bold;
+      padding-top: 1px;
+    }
+
+    section {
+      overflow: hidden;
+
+      h3 {
+        font-size: 20px;
+        background-color: $main-color;
+        color: $bg-color;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 3px;
+        margin-bottom: 60px;
+      }
+
+      p {
+        line-height: 24px;
+        width: 250px;
+      }
+    }
+  }
+}
+
+.access {
+  padding-bottom: 70px;
+  border-bottom: 1px solid #999;
+  margin-bottom: 70px;
+  position: relative;
+
+  .map {
+    float: right;
+    position: absolute;
+    right: 30px;
+
+    h3 {
+      width: 90px;
+    }
+  }
+}
+
+
+.erea {
+  margin-bottom: 10px;
+
+  .shuhen {
+    width: 110px;
+  }
+
+  figure {
+    float: right;
+  }
+}
